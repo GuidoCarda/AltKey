@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- SWIPPER CSS -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">AltKey</a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#popular" class="nav-link">Productos</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="bg-circle medium opacity-50"></div>
+    <div class="bg-circle medium opacity-50"></div>
+    <section class="home section container" id="home">
+      <div class="home__container">
+        <h1 class="home__title">Teclados mecanicos <br> <span>personalizados</span></h1>
+        <p class="home__description">Encontrá los mejores teclados personalizados con la mejor calidad del mercado</p>
+        <div class="home-buttons">
+          <a href="#popular" class="button primary">Ver Teclados</a>
+          <a href="#about"  class="button">Sobre Nosotros</a>
+        </div>
+        <div class="home-img">
+          <div class="bg-circle small opacity-50"></div>
+          <div class="bg-circle small opacity-50"></div>
+          <img src="/media/teclado-portada.png" alt="">
+        </div>
+      </div>     
+    </section>
+
+    
+
+    <section class="popular section" id="popular">
+      <div class="popular__section container swiper">
+        <h2 class="section__title">Productos populares</h2>
+        <div class="swiper-wrapper">
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/bluekeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Franchesco v1</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/orangekeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Fili Mori</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/whitewhitekeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Fili Mori</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/greykeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Franchesco v2</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/polycarbonatekeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Flasheado</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/keyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Franchesco</h3>
+            </div>
+          </article>
+          <article class="popular__card swiper-slide">
+            <img class="popular__img" src="media/redwhitekeyboard.png" alt="">
+            <div class="popular__data">
+              <h2 class="popular__price">$34.141</h2>
+              <h3 class="popular__title">Fili Mori</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="cta section container">
+      <div class="cta__container">
+        <div class="cta__info">
+          <h2 class="cta__text">Queres armarte un teclado<br>totalmente personalizado?</h2>
+          <button class="button primary">Contactanos</button>
+        </div>
+        <img src="media/custom-keycaps.png" alt="" class="cta__img">
+      </div>
+    </section>
+
+
+    <section class="section about__section container" id="about">
+      <div class="about__box">
+        <div>
+          <h2>Sobre Nosotros</h2>
+          <p>Somos una empresa dedicada a la venta de teclados mecánicos personalizados prestando una gran atencion a los detalles y ofreciendo productos con insumos de alta calidad</p>
+        </div>
+        <div class="about__img">
+          <img src="/media/teclados.png" alt="">
+        </div>
+      </div>
+
+      <div class="about__box">
+        <div class="about__info">
+          <h2>Sobre Nosotros</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ex consequuntur inventore nulla tempora optio libero magnam dolore voluptas sit reprehenderit, voluptatibus, ad officia beatae, error illum animi rerum corporis!</p>
+        </div>
+        <div class="about__img">
+          <img src="/media/custom-keycaps.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <!-- SWIPER JS -->
+</body>
+</html>
