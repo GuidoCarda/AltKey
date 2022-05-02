@@ -348,7 +348,27 @@ img{
   height: 100%;
   width: 100%;
 }
+@media screen and (max-width: 900px){
+  .cta__container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    height: auto;
+    text-align: center;
+  }
 
+  .cta__info{
+    padding: 2rem;
+    text-align: left;
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cta__text{
+    margin-bottom: 0;
+  }
+}
 
 
 /* About us */
@@ -360,18 +380,7 @@ img{
   gap: 2rem;
   padding-block: 3rem;
   align-items: center;
-}
-
-.about__box:first-of-type{
   text-align: right;
-}
-
-.about__box:last-child > .about__img{
-  order: 0;
-}
-
-.about__box:last-child > .about__info{
-  order: 1;
 }
 
 .about__section h2{
@@ -417,9 +426,6 @@ img{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    text-align: center;
-  }
-  .about__box:first-of-type{
     text-align: center;
   }
 }
